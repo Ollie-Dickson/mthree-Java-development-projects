@@ -1,0 +1,4 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LabourCostPerSquareFoot,MaterialCost,LabourCost,Tax,Total
+4,Oooo* its Swiper,KY,6.00,Wood,333.30,5.15,4.75,1716.50,1583.18,197.98,3497.66
+5,Boots,CA,25.00,Laminate,369.00,1.75,2.10,645.75,774.90,355.16,1775.81
+8,Dora,TX,4.45,Carpet,224.00,2.25,2.10,504.00,470.40,43.36,1017.76

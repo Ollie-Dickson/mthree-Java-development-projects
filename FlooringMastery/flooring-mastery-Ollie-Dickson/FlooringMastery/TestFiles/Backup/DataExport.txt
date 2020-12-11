@@ -1,0 +1,4 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LabourCostPerSquareFoot,MaterialCost,LabourCost,Tax,Total,Date
+1,Swiper,WA,6.00,Wood,333.30,5.15,4.75,1716.50,1583.18,197.98,3497.66,01-02-2022
+2,Boots,KY,6.00,Laminate,101.56,1.75,2.10,177.73,213.28,23.46,414.47,01-01-2022
+6,Dora,TX,4.45,Carpet,224.00,2.25,2.10,504.00,470.40,43.36,1017.76,01-01-2022
