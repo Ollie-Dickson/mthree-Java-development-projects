@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+          http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="vendingDao" class="com.sg.vendingmachine.dao.VendingDaoFileImpl"/>
+
+    <bean id="vendingDaoStub" class="com.sg.vendingmachine.service.VendingDaoStubImpl"/>
+
+    <bean id="vendingAuditDaoStub" class="com.sg.vendingmachine.service.VendingAuditDaoStubImpl"/>
+
+    <bean id="vendingServiceLayer" class="com.sg.vendingmachine.service.VendingServiceLayerImpl">
+        <constructor-arg ref="vendingDaoStub"/>
+        <constructor-arg ref="vendingAuditDaoStub"/>
+    </bean>
+</beans>

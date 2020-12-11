@@ -1,0 +1,6 @@
+Walkers Crisps::0.85::1
+Malteasers::0.73::3
+Coca-cola::1.20::1
+Raisins::0.40::0
+Fanta::1.20::4
+Kit-Kat::0.65::6
